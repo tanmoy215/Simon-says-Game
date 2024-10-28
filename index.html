@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simon Says Game</h1>
+        <h2>Press any key to start the Game</h2>
+
+        <!-- Game Buttons -->
+        <div id="main">
+            <div class="row">
+                <div class="box red btn" id="red" role="button" aria-label="Red button"></div>
+                <div class="box yellow btn" id="yellow" role="button" aria-label="Yellow button"></div>
+            </div>
+            <div class="row">
+                <div class="box green btn" id="green" role="button" aria-label="Green button"></div>
+                <div class="box purple btn" id="purple" role="button" aria-label="Purple button"></div>
+            </div>
+        </div>
+
+        <!-- Highest Score Display -->
+        <div class="score">
+            <h3>Highest Score: 0</h3>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
